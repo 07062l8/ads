@@ -36,6 +36,7 @@ public class Task1 {
         System.out.println("Minimum is: " + min);
         System.out.println("Time taken: " + duration + " milliseconds");
 
+        sc.close();
 
     }
 }
