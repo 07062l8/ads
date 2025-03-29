@@ -27,7 +27,6 @@ public class Task7 {
         double endTime = System.nanoTime();
         double duration = (endTime - startTime) / 1000000;
         System.out.println("\nTime taken: " + duration + " milliseconds");
-
         sc.close();
 
     }
