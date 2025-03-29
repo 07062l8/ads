@@ -23,7 +23,6 @@ public class Task6 {
         int n = sc.nextInt();
 
         double startTime = System.nanoTime();
-
         long result = powerRecursive(a, n);
         double endTime = System.nanoTime();
         double duration = (endTime - startTime) / 1000000;
